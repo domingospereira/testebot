@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.1" />
+    <PackageReference Include="IBM.Watson.Assistant.v2" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Repository\" />
+    <Folder Include="Interfaces\UoW\" />
+    <Folder Include="Models\Dapper\" />
+    <Folder Include="Models\Services\" />
+    <Folder Include="Validation\CustomerValidation\" />
+  </ItemGroup>
+  
+</Project>
